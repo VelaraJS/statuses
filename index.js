@@ -12,14 +12,14 @@
  * @private
  */
 
-var codes = require('./codes.json')
+import codes from './codes.json';
 
 /**
  * Module exports.
  * @public
  */
 
-module.exports = status
+export default status
 
 // status code to message map
 status.STATUS_CODES = codes
